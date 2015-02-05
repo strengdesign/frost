@@ -1,0 +1,23 @@
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
+.GreyTitle {
+color: #CDCDCB; font: 28px/36px 'Tenor Sans', sans-serif;  margin: 5px 0; padding: 5px 0;font-style:italic;
+}
+
+PaddingLeft {
+padding-left:30px;
+}
+
+.BlueTitle {
+color: #3C679C !important; font:18px/24px 'Tenor Sans', sans-serif;  margin: 5px 0; padding: 5px 0; 
+}
+
+.SmallTitle {
+color: #5F5D5D; font: bold 13px/18px 'lato', sans-serif;  letter-spacing: .7px; 
+}
+
+blue-bullets {
+margin-left: -8px; margin-right: 7px; display: inline-block; background: url(/images/style/bullet-sqr.png) no-repeat 0 3px; content: " "; color: #646464; width: 8px; height: 12px;
+}
+

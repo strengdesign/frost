@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+    <!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <umbraco:macro alias="MetaContent" runat="server" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link id="screenCSS" rel="StyleSheet" href="/styles/style.css" type="text/css">
+        <link rel="StyleSheet" href="/styles/style2.css" type="text/css">
+        <link rel="stylesheet" href="/styles/nivo-slider.css" type="text/css" media="screen" />
+        <link id="printCSS" rel="stylesheet" href="/styles/print.css" type="text/css" media="print" />
+        <link rel="stylesheet" href="/styles/realprint.css" type="text/css" media="print" />
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,900|Tenor+Sans' rel='stylesheet'
+            type='text/css'>
+        <script>
+            function togglePrintPreview() {
+                var currCSS = document.getElementById("printCSS");
+                if (currCSS.media == "all")
+                    currCSS.media = "print";
+                else currCSS.media = "all";
+            }
+	</script>
+    </head>
+    <body>
+        <div id="wrapper-main" class="blankLanding">
+            <div id="wrapper-content-blank">
+                <h2 style="border-top: none;">
+                    <umbraco:item field="pageTitle" runat="server" />
+                </h2>
+                <div id="page-content">
+                    <umbraco:item field="pageText" runat="server" />
+                </div>
+                <!-- /page-content -->
+            </div>
+        </div>
+        <!--SCRIPTS-->
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+        <script>            window.jQuery || document.write('<script src="/scripts/jquery-1.7.1.min.js"><\/script>')</script>
+        <script defer src="/scripts/plugins.js"></script>
+        <script defer src="/scripts/scripts.js"></script>
+        <div id="fb-root">
+        </div>
+        <script>            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                fjs.parentNode.insertBefore(js, fjs);
+            } (document, 'script', 'facebook-jssdk'));</script>
+        <asp:ContentPlaceHolder ID="JScripts" runat="server">
+            <!-- Insert default "MasterTemplate" markup here -->
+        </asp:ContentPlaceHolder>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-35134039-1']);
+            _gaq.push(['_setDomainName', 'frrcpas.com']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+	
+	</script>
+    </body>
+    </html>
+</asp:Content>

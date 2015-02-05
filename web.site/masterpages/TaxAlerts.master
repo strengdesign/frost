@@ -1,0 +1,10 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/UserControls.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="ControlDetails" runat="server">
+	<a class="print" href="javascript:togglePrintPreview()"><img src="/images/style/printicon.gif" /></a>
+	<h2 class="home-content" style="border-top: none;">Tax Alerts</h2>
+	<div id="page-content">
+		<iframe src="http://www.cchwebsites.com/econtent/iframes/newsletters.php"
+		  style="width: 100%; height: 900px" frameBorder="0"></iframe>
+	</div>
+</asp:content>

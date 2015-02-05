@@ -1,0 +1,6 @@
+C:\inetpub\wwwroot\frr\FRRUtilities\FrrUtilities\FrrUtilities\bin\Release\FrrUtilities.dll.config
+C:\inetpub\wwwroot\frr\FRRUtilities\FrrUtilities\FrrUtilities\bin\Release\FrrUtilities.dll
+C:\inetpub\wwwroot\frr\FRRUtilities\FrrUtilities\FrrUtilities\bin\Release\FrrUtilities.pdb
+C:\inetpub\wwwroot\frr\FRRUtilities\FrrUtilities\FrrUtilities\obj\Release\ResolveAssemblyReference.cache
+C:\inetpub\wwwroot\frr\FRRUtilities\FrrUtilities\FrrUtilities\obj\Release\FrrUtilities.dll
+C:\inetpub\wwwroot\frr\FRRUtilities\FrrUtilities\FrrUtilities\obj\Release\FrrUtilities.pdb

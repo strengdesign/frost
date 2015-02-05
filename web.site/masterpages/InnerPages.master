@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="ContentArea" runat="server">
+	<div id="head-heading">
+      <umbraco:Macro Alias="HeaderImagePicker" runat="server"></umbraco:Macro>
+
+      <div id="home-search">
+		  	<form action="/search-results.aspx" method="get">
+			  <span class="search">SEARCH</span>
+			  <input type="text" class="searchinput" name="search" value="">
+			  <input type="image" src="/images/misc/button-go.png" alt="submit" name="submit" class="button-go" />
+        	</form> 
+      </div><!--- /home-search --->
+    </div><!--- /head-heading-title --->
+	
+	<umbraco:Macro Alias="SubNavigation" runat="server" />
+	
+	<div id="wrapper-visual" class="clearfix">
+		<asp:ContentPlaceHolder Id="MainContent" runat="server">
+			<!-- Insert default "MainContent" markup here -->
+		</asp:ContentPlaceHolder>
+	</div>
+</asp:content>
+
+
+<asp:content ContentPlaceHolderId="JScripts" runat="server">
+	<asp:ContentPlaceHolder Id="JSIncludes" runat="server">
+		<!-- Insert default "JSIncludes" markup here -->
+	</asp:ContentPlaceHolder>
+</asp:content>

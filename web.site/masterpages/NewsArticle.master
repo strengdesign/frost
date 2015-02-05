@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/InnerPages.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="MainContent" runat="server">
+	<div id="page-content">
+		<umbraco:Macro Alias="NewsDetail" runat="server" />
+	</div>
+</asp:content>
+
+<asp:content ContentPlaceHolderId="JSIncludes" runat="server">
+
+	
+  
+</asp:content>

@@ -1,0 +1,149 @@
+
+
+/* ===== HTML5 display definitions ========================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+/* ===== Base ================================================================ */
+* {margin:0; padding: 0;}
+html {height: 100%; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body {height: 100%; font: 11px/18px Verdana, Geneva, sans-serif;   background: #6d8dba url(/images/background/main.jpg) ;}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* ===== Links ============================================================== */
+
+a { color: #6F9DD7; text-decoration: underline; outline: none;}
+a:visited { color: #6F9DD7; }
+a:hover { text-decoration: none;  }
+a:focus { outline: none; }
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
+img { border: none;}
+
+/* ===== Typography ========================================================= */
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+p {margin: 0 0 10px 0; line-height: 22px;}
+img.white-border {border: 1px solid #fff;}
+#left-content h3 {font-family: arial;color: #017D79; margin: 15px 0 5px 0;}
+h4 {margin: 0 0 5px 0;}
+.need-content {color: red; }
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* Improve readability of pre-formatted text in all browsers */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+
+small { font-size: 85%; }
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+/* ===== Lists ============================================================== */
+
+ul, ol { margin:0; padding: 0; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+
+
+
+/* ===== Structure ============================================================ */
+#wrapper-main { background: url(/images/background/content-wrapper-fade.png) repeat-y; margin: 0 auto; width: 935px; padding: 0 15px; min-height: 100%; position: relative; overflow: hidden;}
+#wrapper-content {padding: 6px 0 0 0;}
+#wrapper-mainnav {background: #3C679C; margin-bottom: 5px;}
+#main-content {margin: 0 0 25px 0;}
+
+/* ===== Header Top Nav ========================================================================== */
+#client-contact {border-bottom: 2px solid #D0D0D0;}
+#client-contact ul { display: inline;}
+#client-contact ul li { float: left; list-style: none; background: #DF460A; margin: 0 3px 0 0; line-height: 22px; border-radius: 5px 5px 0 0; font-family: 'Lato', sans-serif; text-transform: uppercase; font-size: 11.5px; padding: 0 10px;}
+#client-contact ul li:hover {}
+#client-contact ul li a {color: #fff;}
+#client-contact ul li a:hover {text-decoration: none;}
+
+#client-contact ul li.alt { background: none;}
+#client-contact ul li:hover.alt {}
+#client-contact ul li.alt a {color: #3B679B;}
+#client-contact ul li.alt a:hover {text-decoration: none;}
+
+
+#logo-tag {height: 105px;}
+#container-tag {float: left; width: 650px; font-family: 'Tenor Sans', sans-serif; font-size: 40px; color: #8C8C8C; text-align: center; line-height: 105px;}
+#container-logo {float: right; width: 285px; padding: 8px 0 0 0;}
+
+ul#mainnav { display: inline;}
+ul#mainnav li { float: left; list-style: none; background: url(/images/misc/li-separator.png) right no-repeat #3C679C; text-align: center; text-transform: uppercase;}
+ul#mainnav li:last-child { background-image: none; }
+ul#mainnav li a { color: #fff; display: block; font: bold 11px/30px 'lato', sans-serif; letter-spacing: 1px; padding: 0 0 0 0; text-decoration: none; width: 133px;}
+ul#mainnav li a.last {width: 135px;}
+ul#mainnav li a:hover { }
+
+/* ===== Footer ============================================================ */
+#footer {  font-family: Verdana, Geneva, sans-serif; font-size:10px; position: relative;}
+#footer #left { background: #CCCBC9; float: left; height: 92px; width: 610px; margin-right: 3px;}
+#footer #left #association {border-right: 1px solid #fff; padding: 10px; width: 235px; float: left;}
+#footer #left #association img {margin: 0 0 7px 0;}
+#footer #left #location {padding: 10px; width: 300px; float: left; color: #534F4B;}
+#footer #left #location p { font-family: Verdana, Geneva, sans-serif; font-size: 12px; margin: 0 0 12px 0;}
+
+#footer #right { background: #D53F07; float: right; height: 72px; width: 287px;color: #fff; padding: 10px 10px 10px 25px; line-height: 23px;}
+#footer #right a {color: #fff;  text-decoration: underline; margin-right: 15px;}
+
+
+/* ===== HOME ============================================================ */
+#wrapper-visual {}
+#slideshow-questions { border-bottom: 2px solid #3F6CA1; margin: 0 0 5px 0; padding: 0 0 5px 0;  height: 295px;}
+#slideshow {width: 608px; border: 1px solid #D8D9D5; height: 295px; float: left; margin: 0 3px 0 0; overflow: hidden;}
+#questions {width: 320px; border: 1px solid #D8D9D5; float: left; height: 295px;background: url(/images/background/home-questions.png) repeat-x #CACACA;}
+#questions a { text-decoration: none;}
+#social-search {margin: 0 0 15px 0; overflow: hidden;}
+#home-social { width: 588px; border: 1px solid #D8D9D5; float: left; margin: 0 3px 0 0; height: 50px; background: url(/images/background/home-social.png) repeat-x #CACACA; padding: 12px 10px 0 10px; }
+#home-social img {margin-right: 5px;}
+#home-social .phone-number { float: right; width: 150px; color: #fff;font: bold 19px/36px 'lato', sans-serif; text-align: right;}
+
+#questions .tag-question {margin: 18px 10px;}
+.question  {background: url("/images/misc/box-questions.png") no-repeat scroll 0 0 transparent; color: #D54929; font: 16px/20px 'lato',sans-serif; height: 51px; margin: 0 0 7px 13px; padding: 10px 0 0 55px; width: 252px;}
+
+#questions a:hover {text-decoration: none;}
+#home-search {width: 290px; border: 1px solid #D8D9D5; float: left; height: 42px; background: url(/images/background/home-social.png) repeat-x #CACACA;}
+#home-search {color: #fff; font: bold 13px/25px 'lato', sans-serif; letter-spacing: 1px; padding: 20px 0 0 30px;}
+#home-search .searchinput {width: 150px; height: 18px; padding: 2px; border: 1px solid #A3A6A6; float: left;margin:  0 5px;}
+#home-search span.search { float: left;}
+#home-search input.button-go {float: left;margin-top: 2px;}
+
+/* ===== HOME content ============================================================ */ 
+#wrapper-page-content {}
+#right-page-content { float: right; width: 290px;}
+#right-page-content h2 { padding: 12px 15px 0 0; font: 20px/36px 'Tenor Sans', sans-serif; color: #8C8C8C;}
+#left-page-content { float: left; width: 600px; margin: 0 33px 0 10px; }
+#left-page-content h2 { border-bottom: 1px #D0D0D0 solid; border-top: 1px #D0D0D0 solid;  color: #D54929; font: 30px/36px 'Tenor Sans', sans-serif;  margin: 5px 0; padding: 5px 0;}
+
+#whats-new {margin: 0 0 25px 0;}
+.whats-new-entry .whats-new-date .month { color: #898989; font: bold 14px/18px 'lato', sans-serif; font-weight: 900;}
+.whats-new-entry .whats-new-date { color: #6F9DD7; float: left;font: bold 26px/24px 'lato', sans-serif; font-weight: 900; text-align: center; width: 45px; }
+.whats-new-entry .whats-new-content {padding: 0 0 0 60px; margin: 0 0 20px 0; }
+.whats-new-entry h4 { color: #5F5D5D; font: bold 13px/18px 'lato', sans-serif;  letter-spacing: .7px; }
+h2.home-content span.more-news {margin: 10px 0 0 15px; font-size: 13px; float: right;}
+#whats-new a.read-more {margin: 0 0 0 15px;}
+
+
+

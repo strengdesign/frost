@@ -1,0 +1,7 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/GeneralContentPage.master" AutoEventWireup="true" %>
+	
+<asp:content ContentPlaceHolderId="PageFunctions" runat="server">
+	<umbraco:Macro Alias="TeamLandingList" runat="server" />
+	
+	<umbraco:Macro Alias="SubFooter" runat="server" />
+</asp:content>

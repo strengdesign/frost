@@ -1,0 +1,2 @@
+Right-click in this directory and select SVN Update to make sure you have the latest files!
+

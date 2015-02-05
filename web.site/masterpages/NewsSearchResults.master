@@ -1,0 +1,18 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/UserControls.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="ControlDetails" runat="server">
+	<umbraco:Macro runat="server" Alias="XSLTNewsSearch"
+		macroAlias="XSLTNewsSearch"
+		source="1116"
+		searchFields="eventTitle, eventDate, eventTeaser, eventDescription, articleTitle, articlePublishDate, articleTeaser, articleText, newsletterTitle, newsletterPublishDate, newsletterTeaser, newsletterText"
+		previewFields="eventTeaser, articleTeaser, newsletterTeaser, eventTitle, articleTitle, newsletterTitle"
+		previewType="beginning"
+		searchBoxLocation="none"
+		resultsPerPage="10"
+		previewChars="255"
+		showPageRange="0"
+		showOrdinals="0"
+		showScores="0"
+		showStats="0">
+	</umbraco:Macro>
+</asp:content>

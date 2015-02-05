@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 12.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+ATTENDEE;CN="Kevin Callahan";RSVP=TRUE:mailto:KCallahan@frrcpas.com
+ATTENDEE;CN="Araceli Flores";RSVP=TRUE:mailto:AFlores@frrcpas.com
+ATTENDEE;CN="Steven Gross";RSVP=TRUE:mailto:SGross@frrcpas.com
+ATTENDEE;CN="Lejdi Seseri";RSVP=TRUE:mailto:LSeseri@frrcpas.com
+ATTENDEE;CN="Zachary White";RSVP=TRUE:mailto:ZWhite@frrcpas.com
+ATTENDEE;CN="David Zaobiedny";RSVP=TRUE:mailto:DZaobiedny@frrcpas.com
+ATTENDEE;CN="Zubair Adil";RSVP=TRUE:mailto:ZAdil@frrcpas.com
+ATTENDEE;CN="Jane Andrianova";RSVP=TRUE:mailto:JAndrianova@frrcpas.com
+ATTENDEE;CN="Brandon Kowalski";RSVP=TRUE:mailto:BKowalski@frrcpas.com
+ATTENDEE;CN="Kelly Zoellick";RSVP=TRUE:mailto:KZoellick@frrcpas.com
+ATTENDEE;CN="Alex Foley";RSVP=TRUE:mailto:AFoley@frrcpas.com
+ATTENDEE;CN="Kevin Iles";RSVP=TRUE:mailto:KIles@frrcpas.com
+ATTENDEE;CN="Tom Myrda";RSVP=TRUE:mailto:TMyrda@frrcpas.com
+ATTENDEE;CN="Monica Latz";RSVP=TRUE:mailto:MLatz@frrcpas.com
+ATTENDEE;CN="Heather Martin";RSVP=TRUE:mailto:HMartin@frrcpas.com
+ATTENDEE;CN="Jeffrey R. Green";RSVP=TRUE:mailto:JGreen@frrcpas.com
+ATTENDEE;CN="Evgeni Ivanov";RSVP=TRUE:mailto:EIvanov@frrcpas.com
+ATTENDEE;CN="Yasmeen Elhaj";RSVP=TRUE:mailto:YElhaj@frrcpas.com
+ATTENDEE;CN="Jesus Fung";RSVP=TRUE:mailto:JFung@frrcpas.com
+ATTENDEE;CN="Melissa Korey";RSVP=TRUE:mailto:MKorey@frrcpas.com
+ATTENDEE;CN="Moriel Hamui";RSVP=TRUE:mailto:MHamui@frrcpas.com
+ATTENDEE;CN="Bryan Doyle";RSVP=TRUE:mailto:BDoyle@frrcpas.com
+ATTENDEE;CN="Seth Field";RSVP=TRUE:mailto:SField@frrcpas.com
+CLASS:PUBLIC
+CREATED:20140814T140302Z
+DESCRIPTION:\n\n\n\nAnn Weatherhead\nDirector Human Resources\n\n111 S. Pfi
+	ngsten Road • Suite 300  \nDeerfield\, IL 60015\nDirect Dial & Fax 847.2
+	82.6466\nAWeatherhead@frrcpas.com\nwww.frrcpas.com \n\nWe Count. You Matte
+	r.®\n\nCONFIDENTIALITY NOTE:\nThe information contained in this communica
+	tion may be confidential and is intended only for the use of the recipient
+	 named above.  If you are not the intended recipient of this message\, ple
+	ase immediately alert the sender by reply email and then delete this messa
+	ge and its attachments.  Do not deliver\, distribute or copy this message 
+	and/or any of its attachments and do not disclose the contents of or take 
+	any action in reliance upon the information contained in this communicatio
+	n or any of its attachments.\n
+DTEND:20140819T203000Z
+DTSTAMP:20140812T184847Z
+DTSTART:20140819T193000Z
+LAST-MODIFIED:20140814T140302Z
+LOCATION:RES - Conf Room #1
+ORGANIZER;CN="Ann Weatherhead":mailto:AWeatherhead@frrcpas.com
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:College Recruiting
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000909654A02FB6CF01000000000000000
+	0100000003A647F5C0C33D945A8008D9F30EB02D4
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion 08.00.0681.000">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted f
+	rom text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n<P
+	 DIR=LTR><SPAN LANG="en-us"></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><
+	FONT SIZE=2>Ann Weatherhead</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en
+	-us"><FONT SIZE=2>Director Human Resources</FONT></SPAN></P>\n\n<P DIR=LTR
+	><SPAN LANG="en-us"><FONT SIZE=2>111 S. Pfingsten Road • Suite 300&nbsp\
+	; </FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT SIZE=2>Deerfie
+	ld\, IL 60015</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT SIZ
+	E=2>Direct Dial &amp\; Fax 847.282.6466</FONT></SPAN></P>\n\n<P DIR=LTR><S
+	PAN LANG="en-us"><FONT SIZE=2>AWeatherhead@frrcpas.com</FONT></SPAN></P>\n
+	\n<P DIR=LTR><SPAN LANG="en-us"><FONT SIZE=2>www.frrcpas.com </FONT></SPAN
+	></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT SIZE=2>We Count. You Matter.
+	®</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT SIZE=2>CONFIDE
+	NTIALITY NOTE:</FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><FONT SI
+	ZE=2>The information contained in this communication may be confidential a
+	nd is intended only for the use of the recipient named above.&nbsp\; If yo
+	u are not the intended recipient of this message\, please immediately aler
+	t the sender by reply email and then delete this message and its attachmen
+	ts.&nbsp\; Do not deliver\, distribute or copy this message and/or any of 
+	its attachments and do not disclose the contents of or take any action in 
+	reliance upon the information contained in this communication or any of it
+	s attachments.</FONT></SPAN></P>\n\n</BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,5 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/UserControls.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="ControlDetails" runat="server">
+	<umbraco:Macro Alias="Sitemap" runat="server" />
+</asp:content>

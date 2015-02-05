@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="Header" runat="server">
+	
+</asp:content>
+
+
+<asp:content ContentPlaceHolderId="ContentArea" runat="server">
+	<div id="head-heading">
+      <umbraco:Macro Alias="HeaderImagePicker" runat="server"></umbraco:Macro>
+
+      <div id="home-search">
+		  	<form action="/search-results.aspx" method="get">
+			  <span class="search">SEARCH</span>
+			  <input type="text" class="searchinput" name="search" value="">
+			  <input type="image" src="/images/misc/button-go.png" alt="submit" name="submit" class="button-go" />
+        	</form> 
+      </div><!--- /home-search --->
+    </div><!--- /head-heading-title --->
+	
+	<umbraco:Macro Alias="SubNavigation" runat="server" />
+	
+	<div id="wrapper-visual" class="clearfix">
+		<umbraco:Macro Alias="NewsLanding" runat="server" />
+	</div>
+</asp:content>
+
+<asp:content ContentPlaceHolderId="JScripts" runat="server">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/scripts/jquery-1.7.1.min.js"><\/script>')</script>
+	<script defer src="/scripts/plugins.js"></script>
+	
+	<link rel="stylesheet" href="/scripts/themes/base/jquery.ui.all.css">
+	<script src="/scripts/jquery-1.8.3.js"></script>
+	<script src="/scripts/ui/jquery.ui.core.js"></script>
+	<script src="/scripts/ui/jquery.ui.widget.js"></script>
+	<script src="/scripts/ui/jquery.ui.datepicker.js"></script>
+	
+	<script defer src="/scripts/scripts.js"></script>
+</asp:content>

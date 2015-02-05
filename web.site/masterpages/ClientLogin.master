@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/UserControls.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="ControlDetails" runat="server">
+	<h2>Secure Client Portal (SCP)</h2>
+	
+	<p>FR&amp;R has created this secure client portal for the exchange of your sensitive documents. We urge each of our clients to utilize this free service offered as a means of transferring or obtaining your personal accounting, tax, and healthcare related information. This secure portal will allow for the transfer of completed client related reports as well as the availability for you, our client, to upload sensitive or personal documentation in a secure setting. This portal provides continuous access year round.</p>
+	
+	<div style="margin: 20px; background-color: #eee; padding: 5px;">
+		<form method="post" action="https://secure.netlinksolution.com/portal/?action=JLoginUser" autocomplete="off" style="font:14px sans-serif">
+			<input type="hidden" name="firmID" value="56788"/>
+		
+			<label for="trUname">Login:</label><br/>
+			<input id="trUname" name="username" type="text" maxlength="50" required spellcheck="false" autocapitalize="off" style="width:150px;margin-bottom:5px"/><br/>
+		
+			<label for="trPwd">Password:</label><br/>
+			<input id="trPwd" name="password" type="password" maxlength="50" required style="width:150px;margin-bottom:5px"/><br/>
+		
+			<input type="submit" value="Log In" style="width:65px"/><a href="https://secure.netlinksolution.com/nextgen/?firm=56788%23" target="_blank" id="trResetPwd" style="font-size:11px;margin-left:5px">Forgot Password</a> 
+		</form>
+	</div>
+	
+	<p>This site and its content are provided for your convenience and use by Frost, Ruttenberg and Rothblatt, PC (FR&amp;R). By gaining access to content contained in this website, you are also confirming your identity for purposes of authentication. You are responsible for your username and password, and are responsible for their confidentiality. FR&R is not responsible for lost or stolen usernames and/or passwords that are used to gain access to this site. Failure to comply may result in termination of your access to content contained in this website.</p>
+
+	<p>For technical assistance, please contact your FR&amp;R account representative.</p>
+
+	<p>847.236.1111</p>
+	
+</asp:content>

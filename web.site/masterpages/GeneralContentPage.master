@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/InnerPages.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="MainContent" runat="server">  
+	
+	<div id="wrapper-page-content">
+		<div id="left-page-content-inner">
+			<a class="print" href="javascript:togglePrintPreview()"><img src="/images/style/printicon.gif" /></a>
+			<h2 class="home-content" style="border-top: none;"><umbraco:Item field="pageTitle" runat="server" /></h2>
+			<div id="page-content">
+				<umbraco:Item field="pageText" runat="server" />
+				
+				<asp:ContentPlaceHolder Id="PageFunctions" runat="server">
+					<!-- Insert default "PageFunctions" markup here -->
+				</asp:ContentPlaceHolder>
+			</div><!-- /page-content -->
+		</div><!--- /left-page-content --->
+		
+		<div id="right-page-container">
+			<umbraco:Macro Alias="RightContent" runat="server" />
+		</div><!--- /right-page-content --->
+		
+	</div><!--- /wrapper-page-content --->
+</asp:content>
+
+<asp:content ContentPlaceHolderId="JSIncludes" runat="server">
+	
+</asp:content>

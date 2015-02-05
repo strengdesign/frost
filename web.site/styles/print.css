@@ -1,0 +1,28 @@
+body, #page-content p, p, h1, h2, h3, h4, h5, h6 {
+	color: black;
+}
+.printfooter {
+margin-top: 50px;
+	display: block;
+	color: black;
+
+}
+#footer #right {
+	background: #CCCBC9;
+}
+.noprint {
+	display:none;
+}
+#wrapper-mainnav, #client-contact, .print, #social-search, #head-heading, .video, #head-heading-title, #home-search {
+display: none !important;
+}
+.print {}
+.sub-menu, #relationshipFooter, .print, #social-icons, #slideshow-questions {
+	display: none !important;
+}
+#center-head {
+	margin-top: 5px;
+}
+#print-preview {
+	display: block;
+}	

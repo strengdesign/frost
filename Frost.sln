@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web", "web", "{2AFE6C16-FA81-4E43-A9D6-70EAE54EFF30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web.site", "web.site\web.site.csproj", "{410ADAA5-E1C8-4845-A929-1C760DC4383C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{12DADF2B-C052-40E7-83E9-287BC8743BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrrUtilities", "FrrUtilities\FrrUtilities.csproj", "{0A384AB0-6787-4F38-B020-EBFECB49FA98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{410ADAA5-E1C8-4845-A929-1C760DC4383C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410ADAA5-E1C8-4845-A929-1C760DC4383C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410ADAA5-E1C8-4845-A929-1C760DC4383C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410ADAA5-E1C8-4845-A929-1C760DC4383C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A384AB0-6787-4F38-B020-EBFECB49FA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A384AB0-6787-4F38-B020-EBFECB49FA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A384AB0-6787-4F38-B020-EBFECB49FA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A384AB0-6787-4F38-B020-EBFECB49FA98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{410ADAA5-E1C8-4845-A929-1C760DC4383C} = {2AFE6C16-FA81-4E43-A9D6-70EAE54EFF30}
+		{0A384AB0-6787-4F38-B020-EBFECB49FA98} = {12DADF2B-C052-40E7-83E9-287BC8743BF9}
+	EndGlobalSection
+EndGlobal

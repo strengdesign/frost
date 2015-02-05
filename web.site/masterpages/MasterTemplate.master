@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderDefault" runat="server">
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>  
+    <umbraco:Macro Alias="MetaContent" runat="server" />    
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link id="screenCSS" rel="StyleSheet" href="/styles/style.css" type="text/css">
+	<link rel="StyleSheet" href="/styles/style2.css" type="text/css">
+    <link rel="stylesheet" href="/styles/nivo-slider.css" type="text/css" media="screen" />
+	<link id="printCSS" rel="stylesheet" href="/styles/print.css" type="text/css" media="print" />
+	<link rel="stylesheet" href="/styles/realprint.css" type="text/css" media="print" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900|Tenor+Sans' rel='stylesheet' type='text/css'>
+	    <script>
+		function togglePrintPreview()
+		{
+			 var currCSS = document.getElementById("printCSS");
+			 if(currCSS.media == "all")
+				 currCSS.media = "print";
+			 else currCSS.media = "all";
+		}
+	</script>
+  </head>
+  
+<body>
+  <div id="wrapper-main">
+    <div id="wrapper-content">
+    
+      <header>   
+        <div id="client-contact" class="clearfix">
+          <umbraco:Macro Alias="TopNavigation" runat="server" />
+        </div><!-- /client-contact -->       
+        
+		<div id="print-preview"  >
+			This is Print Preview Mode
+			<div id="print-me"><a href="javascript:window.print()">Print this page</a></div>
+			<div id="go-back"><a href="javascript:togglePrintPreview()">Back to normal mode</a></div>
+			
+		</div>
+		  
+        <div id="logo-tag" class="clearfix">
+          <div id="container-tag">    
+            <img src="/images/misc/tag-header.png"  border="0" class="tag-header" />
+            <asp:ContentPlaceHolder Id="Header" runat="server">
+              <!-- Insert default "Header" markup here -->
+            </asp:ContentPlaceHolder>
+          </div><!-- /container-tag -->
+          <div id="container-logo">
+            <a href="/"><img src="/images/misc/frr-logo.png"  border="0" /></a>
+          </div><!-- /container-logo -->
+          
+        </div><!-- /logo-tag -->      
+          
+        <div id="wrapper-mainnav" class="clearfix">
+          <umbraco:Macro Alias="MainNavigation" runat="server"></umbraco:Macro>
+        </div><!-- /wrapper-mainnav -->      
+      </header>  
+        
+        
+      <div id="main-content" class="clearfix">		  
+        <asp:ContentPlaceHolder Id="ContentArea" runat="server">
+          <!-- Insert default "MasterTemplate" markup here -->
+        </asp:ContentPlaceHolder><br clear='all'/>
+      </div><!-- /main-content -->
+      <br clear='all'/>
+      
+    </div><!-- /wrapper-content -->
+          
+    <footer>
+		<div id="footer">  
+		  <div id="left">
+	
+			<div id="association">
+				<a href="http://www.dfkintl.com/"><img src="/images/misc/logo-dfk.png"  border="0" class="tag-header" /></a><br>
+				A Worldwide Association of Independent<br>
+				Accounting Firms and Business Advisors
+			</div><!-- /association -->
+			<div id="location">
+			<div id="social-icons">
+				<a href="https://www.facebook.com/frrCPAs"><img src="/images/style/facebook.png" /></a>
+				<!-- <a href="#"><img src="/images/style/like.png" /></a> -->
+				<a href="http://twitter.com/FRRCPAs"><img src="/images/style/twitter.png" /></a>
+				<a href="http://www.linkedin.com/company/135839"><img src="/images/style/linkedin.png" /></a>
+				<a href="http://www.youtube.com/user/frrcpas"><img src="/images/style/youtube.png" /></a>
+				<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div>
+			</div>
+          <p class="phone-number">847.236.1111</p>
+            111 S. Pfingsten Rd., Suite 300,  Deerfield, IL 60015<br>
+            55 E. Jackson Blvd., Suite 640,  Chicago, IL 60604
+        </div><!-- /location -->
+		  </div><!-- /footer left -->
+			
+		  <div id="right">
+			<div class="noprint">  
+				<a href="/about-us/privacy-statement.aspx.aspx">Privacy</a>
+				<a href="/sitemap.aspx">Site map</a>
+				<a href="/contact-us.aspx">Contact us</a><br />
+				&copy; Frost, Ruttenberg & Rothblatt, P.C. 2015
+			  </div>
+			<div class="printfooter">
+				info@frrcpas.com
+			</div>
+		  </div><!-- /footer right -->
+		</div><!-- /footer -->
+    </footer>
+	
+	<br clear='all'/>
+	
+  </div><!-- /wrapper-main -->
+	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
+	
+	<script>window.jQuery || document.write('<script src="/scripts/jquery-1.7.1.min.js"><\/script>')</script>
+	<script defer src="/scripts/plugins.js"></script>
+	<script defer src="/scripts/scripts.js"></script>
+	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+  <asp:ContentPlaceHolder ID="JScripts" runat="server">
+    <!-- Insert default "MasterTemplate" markup here -->
+  </asp:ContentPlaceHolder>
+ 
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-35134039-1']);
+	  _gaq.push(['_setDomainName', 'frrcpas.com']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+
+
+  
+  
+</body>
+
+</html>
+</asp:Content>

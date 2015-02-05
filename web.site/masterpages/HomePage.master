@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/MasterTemplate.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="ContentArea" runat="server">
+
+  <div id="wrapper-visual" class="clearfix">
+  
+    <div id="slideshow-questions">
+      <div id="slideshow">
+		<umbraco:Macro Alias="HomeImageRotator" runat="server" />
+      </div><!--- /slideshow --->
+		
+      <div id="questions">
+        <img src="/images/misc/tag-questions.png" class="tag-question"  border="0" />
+
+        <a href="/our-team.aspx"><div class="question">
+          I want to find a particular<br>
+          FR&R team member.
+          </div></a><!--- /question1 --->                  
+        <a href="/industries.aspx"><div class="question">
+          I’d like to know if you serve<br>
+          my industry.
+          </div></a><!--- /question2 --->
+        <a href="/contact-us.aspx"><div class="question">
+          I have a question and I'm<br>
+          not sure where to start.
+          </div></a><!--- /question3 --->
+      
+      </div><!--- /questions --->
+    </div><!--- /slideshow-container --->
+  
+    <div id="social-search">
+      <div id="home-social">
+        <div class="phone-number">847.236.1111</div>
+        
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <table>
+        <tr>
+          <td style="vertical-align: middle; padding-top: 5px;">
+                <a href="http://www.facebook.com/pages/Frost-Ruttenberg-Rothblatt-PC/9007047806" target="_blank"><img src="/images/misc/facebook.png" alt="facebook" title="find us on Facebook"></a>
+                <a href="http://twitter.com/#!/FRRCPAs" target="_blank"><img src="/images/misc/twitter.png" alt="twitter" title="Follow us on Twitter"  border="0" /></a>
+                <a href="http://www.linkedin.com/company/135839" target="_blank"><img src="/images/misc/linkedin.png"  border="0" alt="linkedin" title="see us on LinkedIn" /></a>
+                <a href="http://www.youtube.com/user/frrcpas" target="_blank"><img src="/images/misc/youtube.png" alt="youtube" title="watch us on YouTube"></a>
+          </td>
+          <td>
+                <div class="fb-like" data-href="http://www.frronline.com" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>    
+          </td>
+        </tr>
+        </table>
+        
+        
+      </div><!--- /home-social --->
+      <div id="home-search">
+		<form action="/search-results.aspx" method="get">
+          <span class="search">SEARCH</span>
+          <input type="text" class="searchinput" name="search" value="">
+          <input type="image" src="/images/misc/button-go.png" alt="submit" name="submit" class="button-go" />
+        </form>  
+      </div><!--- /home-search --->
+    </div><!--- /social-search --->
+    
+  </div><!--- /wrapper-visual --->
+  
+<div id="wrapper-page-content">
+  <div id="left-page-content">
+
+    <h2 class="home-content" style="border-top: none;">What's New <span class="more-news"><a href="/news-events.aspx">More News &raquo;</a></span></h2>
+    
+	<umbraco:Macro Alias="HomeNews" runat="server" />
+
+	<a class="newsletterSubscribe" href="http://visitor.constantcontact.com/email.jsp?m=1101765436481&p=oi">SUBSCRIBE TO OUR NEWSLETTERS</a>  
+    <h2 class="home-content">We Are About Relationships.</h2> 
+    
+    <p>
+		<span class="SmallTitle">With our clients</span>…we are passionate about your continued success.<br />
+		<span class="SmallTitle">With our employees</span>…our investment in them ensures first-rate results for you.<br />
+		<span class="SmallTitle">With our communities</span>…we give back to enhance the professional and local communities in which our clients and employees live and work.<br />
+		
+	</p>	
+	<p>	
+		<umbraco:Macro Alias="SubFooter" runat="server" />
+	</p>
+  </div><!--- /left-page-content --->
+
+  <div id="right-page-container">
+	  <h2>
+		  <em>We Count…</em><br />
+		  <p style="font-size: 14px;">FR&amp;R is a Chicago-based CPA and business advisory firm that goes beyond the numbers to provide audit, accounting, tax and consulting services to closely held and family businesses, professional practices, not-for-profit organizations and individuals.</p>  
+		  <em>…You Matter</em><br />
+		  <p style="font-size: 14px;">So we listen. We communicate.  Once we understand your aspirations, we provide the customized professional perspective, advice and services you need to succeed.</p>
+	  </h2>
+  </div><!--- /right-page-content --->
+
+</div><!--- /wrapper-page-content --->
+   <script type="text/javascript" src="/scripts/jquery-1.7.1.min.js"></script> 
+  
+    <script type="text/javascript" src="/scripts/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+        pauseTime: 5000 // How long each slide will show
+    });
+    });
+</script>  
+  
+</asp:content>
