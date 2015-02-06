@@ -16,7 +16,7 @@
 
 <div id="relationshipFooter">
 	<h3>Nothing is more valued than our relationships.</h3>
-	<a href = "/contact-us.aspx">Collaborate with FR&amp;R today.</a>
+	<a href = "/contact-us.aspx">Collaborate with FROST today.</a>
 </div>
 
 </xsl:template>
