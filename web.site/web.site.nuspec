@@ -1,1 +1,29 @@
-﻿<?xml version="1.0"?><package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">  <metadata>    <id>web.site.frost</id>    <title>Frost Umbraco Website</title>    <version>1.0.0</version>    <authors>John McKillip &amp; Derrik Engel </authors>    <owners>Streng Design</owners>    <licenseUrl>http://www.strengdesign.com</licenseUrl>    <projectUrl>http://www.frrcpas.com</projectUrl>    <requireLicenseAcceptance>false</requireLicenseAcceptance>    <description>A custom Umbraco web application</description>    <releaseNotes></releaseNotes>  </metadata></package>
+﻿<?xml version="1.0"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+
+  <metadata>
+
+    <id>web.site.frost</id>
+
+    <title>Frost Umbraco Website</title>
+
+    <version>1.0.0</version>
+
+    <authors>John McKillip &amp; Derrik Engel </authors>
+
+    <owners>Streng Design</owners>
+
+    <licenseUrl>http://www.strengdesign.com</licenseUrl>
+
+    <projectUrl>http://www.frrcpas.com</projectUrl>
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+    <description>A custom Umbraco web application</description>
+
+    <releaseNotes></releaseNotes>
+
+  </metadata>
+
+</package>
