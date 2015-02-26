@@ -3328,6 +3328,7 @@
     <Folder Include="media\104164\" />
     <Folder Include="media\107538\" />
     <Folder Include="media\107541\" />
+    <Folder Include="support\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FrrUtilities\FrrUtilities.csproj">

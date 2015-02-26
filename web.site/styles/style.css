@@ -9,12 +9,12 @@ audio:not([controls]) { display: none; }
 
 /* ===== Base ================================================================ */
 * {margin:0; padding: 0;}
-html {height: 100%; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html {height: 100%; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #edeff2; }
 body {
 color: #646464;
 height: 100%; 
 font: 12px/18px Verdana, Geneva, sans-serif;
-background: #6d8dba url(../images/background/main.jpg) ;
+
 -webkit-font-smoothing: antialiased;
 }
 
@@ -101,7 +101,7 @@ height: 12px;
 
 
 /* ===== Structure ============================================================ */
-#wrapper-main { background: url(/images/background/content-wrapper-fade.png) repeat-y; margin: 0 auto; width: 935px; padding: 0 15px; min-height: 100%; position: relative;  }
+#wrapper-main { background: #fff; margin: 0 auto; width: 935px; padding: 0 30px; min-height: 100%; position: relative; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8;  }
 #wrapper-content {padding: 6px 0 0 0;}
 #wrapper-mainnav {background: #3C679C; margin-bottom: 5px;}
 #main-content {margin: 0 0 25px 0;}
