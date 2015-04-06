@@ -15,7 +15,7 @@
 			<label for="trPwd">Password:</label><br/>
 			<input id="trPwd" name="password" type="password" maxlength="50" required style="width:150px;margin-bottom:5px"/><br/>
 		
-			<input type="submit" value="Log In" style="width:65px"/><a href="https://secure.netlinksolution.com/nextgen/?firm=56788%23" target="_blank" id="trResetPwd" style="font-size:11px;margin-left:5px">Forgot Password</a> 
+			<input type="submit" value="Log In" style="width:65px"/><a href="https://secure.netlinksolution.com/nextgen/packaged/pwd-reset/1.1.0/index.html#" target="_blank" id="trResetPwd" style="font-size:11px;margin-left:5px">Forgot Password</a> 
 		</form>
 	</div>
 	
